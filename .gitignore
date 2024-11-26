@@ -2,7 +2,6 @@
 *.iws
 *.iml
 *.ipr
-
 ### Gradle ###
 .gradle
 # Ignore Gradle build output directory

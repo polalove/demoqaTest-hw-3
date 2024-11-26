@@ -6,20 +6,19 @@ import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
-public class practiceFormAutotests {
+public class PracticeFormAutotest {
     @BeforeAll
     static void beforeAll() {
         Configuration.browserSize = "1920x1080";
         Configuration.baseUrl = "https://demoqa.com";
         Configuration.pageLoadStrategy = "eager";
-
     }
 
     @Test
     void fillFormTest() {
         open("/automation-practice-form");
 // To block pop-up banners
-        executeJavaScript("$('#fixedban').remove()");
+//      executeJavaScript("$('#fixedban').remove()");
         executeJavaScript("$('footer').remove()");
 // General information
         $("#firstName").setValue("Alex");
