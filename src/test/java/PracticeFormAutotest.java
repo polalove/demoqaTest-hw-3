@@ -18,7 +18,7 @@ public class PracticeFormAutotest {
     void fillFormTest() {
         open("/automation-practice-form");
 // To block pop-up banners
-//      executeJavaScript("$('#fixedban').remove()");
+        executeJavaScript("$('#fixedban').remove()");
         executeJavaScript("$('footer').remove()");
 // General information
         $("#firstName").setValue("Alex");
