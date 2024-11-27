@@ -6,7 +6,7 @@ import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
-public class PracticeFormAutotest {
+public class PracticeFormAutoTest {
     @BeforeAll
     static void beforeAll() {
         Configuration.browserSize = "1920x1080";
