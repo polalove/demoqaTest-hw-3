@@ -61,3 +61,5 @@ public class PracticeFormAutoTest {
         $(".table").shouldHave(text("State and City")).shouldHave(text("Rajasthan Jaiselmer"));
     }
 }
+
+// test git
